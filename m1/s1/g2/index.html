@@ -34,13 +34,13 @@
         <section>
             <h2>Come creare un template per i post</h2>
             <p>di Mario Rossi - pubblicato il 25-10-2020</p>
-        </section>
+        
 
-        <section>
+        
             <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine</p>
-        </section>
+        
 
-        <section>
+        
             <p>Le varie aree saranno quindi suddivise in :</p>
             <ul>
                 <li>Contenuti di intestazione del tag  <code>&lt head &gt</code> </li>
@@ -48,9 +48,9 @@
                 <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt footer &gt</code></li>
                 <li>Formattazione del codice</li>
             </ul>
-        </section>
+        
 
-        <section>
+        
             <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
             <ul>
                 <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
@@ -60,8 +60,7 @@
             </ul>
         </section>
 
-        <section>
-            
+        <section>            
 
             <table>
                 <caption>
@@ -98,6 +97,7 @@
                     <td>76 &percnt;</td>
                 </tr>
             </table>
+
         </section>
 
         <section>
@@ -109,10 +109,11 @@
 
     <aside>
         <p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:</p>
-        <div>
-            <input type="email" placeholder="Inserisci la tua email">
-            <button>Iscriviti!</button>
-        </div>
+        <form>
+            <label for="campoemail">Inserisci la tua email :</label>
+            <input type="email" placeholder="Email" name="campoemail">
+            <button type="button">Iscriviti!</button>
+        </form>
     </aside>
 
     <article>
