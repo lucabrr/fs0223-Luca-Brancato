@@ -43,8 +43,8 @@
 }
 
 
-.listamain{
-    padding: 5px;
+.listamain li{
+    margin-bottom: 10px;
 }
 
 .lista-method{
