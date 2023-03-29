@@ -1,5 +1,6 @@
 .logo{
     width: 15em;
+    margin-bottom: 20px
 }
 .logo-para{
     text-align: center;
@@ -12,6 +13,7 @@
     justify-content: center;
     font-size: 13px;
     color: rgb(33, 98, 96);
+    margin-bottom: 60px
 }
 .paragrafo-logo{
     margin-top: 7px;
@@ -31,6 +33,9 @@
 .divfeatured{
     border-left: solid orange;
     padding-left: 17px;
+    margin-bottom: 55px;
+    border-width: 1px
+    
 }
 .titolofeatured {
     margin: 0;
