@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {margin: 5px;
     background-image: url(../img/sfondo.png) ;
-    display: flex;
-    flex-direction: column;
     font-family: 'Poppins', sans-serif;
 
 
