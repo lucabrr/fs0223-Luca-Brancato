@@ -19,9 +19,9 @@
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Articoli</a></li>
-                <li><a href="#">Lavora con noi</a></li>
+                <li><a href="#"> &#8658; Home &#8656; </a></li>
+                <li><a href="#">&#8658; Articoli &#8656;</a></li>
+                <li><a href="#">&#8658; Lavora con noi &#8656;</a></li>
             </ul>
         </nav>
     </header>
@@ -44,18 +44,19 @@
                 <li>Contenuti centrali variabili del tag <code>&lt main &gt</code></li>
                 <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt footer &gt</code></li>
                 <li>Formattazione del codice</li>
-            </ul>
+            </ul>    
         
-
-        
-            <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
-            <ul>
+            <p class="blocco-paragraph">Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span>selezionare con i CSS</span>. Perciò i passi saranno:</p>
+            
+            <ol>
                 <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
                 <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
                 <li>Applicare gli stili CSS</li>
-                <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</li>
-            </ul>
+            </ol>
+
+            <p class="blocco-paragraph">L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
         </section>
+
 
         <section>            
 
@@ -64,16 +65,16 @@
                     Diffusione dei CSS
                 </caption>
                 <tr>
-                    <td>Anno</td>
-                    <td> &percnt; di utilizzo</td>
-                    <td>Supporto Browsers</td>
+                    <th>Anno</th>
+                    <th><span class="br">&percnt;</span> di utilizzo</th>
+                    <th><span class="br">Supporto</span> Browsers</th>
                 </tr>
                 <tr>
                     <td>2000</td>
                     <td>20 &percnt;</td>
                     <td>17 &percnt;</td>
                 </tr>
-                <tr>
+                <tr class="opaci-row">
                     <td>2002</td>
                     <td>35 &percnt;</td>
                     <td>22 &percnt;</td>
@@ -83,12 +84,12 @@
                     <td>45 &percnt;</td>
                     <td>42 &percnt;</td>
                 </tr>
-                <tr>
+                <tr class="opaci-row">
                     <td>2008</td>
                     <td>80 &percnt;</td>
                     <td>51 &percnt;</td>
                 </tr>
-                <tr>
+                <tr id="last-row">
                     <td>2012</td>
                     <td>100 &percnt;</td>
                     <td>76 &percnt;</td>
@@ -97,52 +98,56 @@
 
         </section>
 
-        <section>
-            <p>Un test di validazione potrà essere fatto tramite il tool online <a href="#">-LINK ESTERNO-</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-            <iframe  width="90%" height="180vh" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section id="video-section">
+
+            <p id="paragraph-before-video">Un test di validazione potrà essere fatto tramite il tool online <a id="linktool" href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+            
+            <iframe width="100%" src="https://www.youtube.com/embed/NqWPuzpSKPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            
         </section>
 
     </main>
-<!--
-        <form>
 
+    <div id="last-part">
+        <form>
+            <h3>NOVITÀ</h3>
             <p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter:</p>
         
             <label for="campoemail">Inserisci la tua email :</label>
-            <input type="email" placeholder="Email" name="campoemail">
+            <input type="email" placeholder="inserisci l'email" name="campoemail">
             <button type="button">Iscriviti!</button>
 
         </form>
     
 
-    <aside>
-        <h3>Articoli correlati</h3>
+        <aside>
+            <h3>Articoli correlati</h3>
 
-        <article>
-            <h4>Validare codice HTML</h4>
-            <p>Categoria: develop</p>
-            <p>Data: 10-9-2020</p>
-        </article>
+            <article>
+                <h4>Validare codice HTML</h4>
+                <p>Categoria: develop</p>
+                <p>Data: 10-9-2020</p>
+            </article>
 
-        <article>
-            <h4>Correggere la sintassi</h4>
-            <p>Categoria: develop</p>
-            <p>Data: 16-9-2020</p>
-        </article>
+            <article>
+                <h4>Correggere la sintassi</h4>
+                <p>Categoria: develop</p>
+                <p>Data: 16-9-2020</p>
+            </article>
 
-        <article>
-            <h4>Meno Kb nella pagina</h4>
-            <p>Categoria: ottimizzazione</p>
-            <p>Data: 30-9-2020</p>
-        </article>
-    </aside>
+            <article>
+                <h4>Meno Kb nella pagina</h4>
+                <p>Categoria: ottimizzazione</p>
+                <p>Data: 30-9-2020</p>
+            </article>
+        </aside>
 
-    <footer>
-        <p>Blog Epicode &copy;2021</p>
-        <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA00112233.</p>
-        <a href= "mailto:info@epicode.school">info@epicode.school</a>
-    </footer>
--->
+        <footer>
+            <p>Blog Epicode &copy;2021</p>
+            <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA00112233.</p>
+            <a href= "mailto:info@epicode.school">info@epicode.school</a>
+        </footer>
+    </div>   
 
 </body>
 </html>
