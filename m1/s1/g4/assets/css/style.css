@@ -1,0 +1,86 @@
+/* IMPOSTAZIONI GENERALI */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {margin: 5px;
+    background-image: url(../img/sfondo.png) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+/* HEADER */
+header{ 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 5px , 3px;
+    background-color: rgb(0, 119, 153);
+    width: 325px;  
+    margin-bottom: 20px;
+}
+img {
+    width: 13em;
+    margin : 15px 0px;
+    display: block;
+}
+
+header h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 15px  0px;
+}
+header nav{
+    text-align: center;
+    margin-bottom: 15px;
+}
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header nav ul li  {
+    list-style-type: none; 
+    margin-bottom: 5px;
+       
+}
+
+/* MAIN */
+main{
+    background-color: white;
+    width: 325px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    line-height: 1.5em;
+}
+main section h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+#text-autore{
+    color: grey;
+    margin-bottom: 15px;
+}
+.blocco-paragraph span{
+    color: blueviolet;
+    font-weight: bold;
+}
+.blocco-paragraph{
+    margin-bottom: 20px;
+}
+
+#video{
+    max-width: 100%;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
