@@ -68,7 +68,7 @@ button{
 #parte-a-2{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 100px 0px;
 }
 #colonne{text-align:center;}
 #img-circle-w{
@@ -81,7 +81,7 @@ button{
     background-color: #e22d0e;
     color: white;
     text-align: center;
-    padding: 150px;
+    padding: 110px;
 }
 #last-main-block h2{
     font-weight: bold;
@@ -102,15 +102,19 @@ article{
     text-align: center;
 }
 .articoli{
-    border: 1px solid #dee1e3
+    border: 1px solid #dee1e3;
+    height: 50vh;
     
+}
+.articles-img{
+    height: 30vh;
 }
 .article-paragraph{
     padding: 0px 5px 20px 5px;
 }
 
 aside {
-    margin-bottom: 80px;
+    margin: 80px 0px 120px 0px;
     display: flex;
     align-items: center;
 }
