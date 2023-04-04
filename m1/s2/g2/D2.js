@@ -54,6 +54,10 @@ name = "Brancato"
 
 console.log(name);
 
+// cost COSTANTE = "francesco"
+
+// COSTANTE = "maria"; ERRORE 
+
 
 
 /* ESERCIZIO 6
