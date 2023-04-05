@@ -4,15 +4,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
-let a = 5;
-let b = 10; 
-let numeroPiùGrande;
+  let a = 5;
+  let b = 10;
+  let numeroPiùGrande;
 
-if(a > b ){
-  numeroPiùGrande = a
-}else{numeroPiùGrande = b};
+  if (a > b) {
+    numeroPiùGrande = a
+  } else { numeroPiùGrande = b };
 
-console.log(numeroPiùGrande);
+  console.log(numeroPiùGrande);
 
 
 }
@@ -24,11 +24,11 @@ console.log(numeroPiùGrande);
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
 
-let numeroFornito = 8
+  let numeroFornito = 8
 
-if (numeroFornito != 5){
-  console.log("not equal");
-}
+  if (numeroFornito != 5) {
+    console.log("not equal");
+  }
 
 
 }
@@ -40,11 +40,11 @@ if (numeroFornito != 5){
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
 
-let numero = 15
+  let numero = 15
 
-if(numero % 5 == 0){
-  console.log("divisibile per 5");
-}else {console.log("non è divisibile per 5");}
+  if (numero % 5 == 0) {
+    console.log("divisibile per 5");
+  } else { console.log("non è divisibile per 5"); }
 
 
 }
@@ -55,37 +55,15 @@ if(numero % 5 == 0){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 
-let numero1 = 24
-let numero2 = 16
-if (numero1 == 8 
-    || numero2 == 8 
-    || numero1 + numero2 == 8 
-    || numero1 - numero2 == 8)
-
-     {console.log("i numeri hanno passato la verifica");}
-     else{console.log("i numeri non ha passato la verifica");}
+  let numero1 = 24
+  let numero2 = 16
+  if (numero1 == 8
+    || numero2 == 8
+    || numero1 + numero2 == 8
+    || numero1 - numero2 == 8) { console.log("i numeri hanno passato la verifica"); }
+  else { console.log("i numeri non ha passato la verifica"); }
 
 }
 
@@ -98,15 +76,16 @@ if (numero1 == 8
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
 
-  
-    let totalShoppingCart = 30 
-    let spedizione = 10
 
-    if ( totalShoppingCart <= 50 ){
-      totalShoppingCart= totalShoppingCart + spedizione;}
+  let totalShoppingCart = 30
+  let spedizione = 10
 
-      console.log(totalShoppingCart)
-  
+  if (totalShoppingCart <= 50) {
+    totalShoppingCart = totalShoppingCart + spedizione;
+  }
+
+  console.log(totalShoppingCart)
+
 }
 
 /* ESERCIZIO 6
@@ -118,18 +97,19 @@ if (numero1 == 8
 
 {
 
-  
-    let totalShoppingCart = 40
-    
-    totalShoppingCart = totalShoppingCart - (totalShoppingCart*0.2)
 
-    let spedizione = 10
+  let totalShoppingCart = 40
 
-    if ( totalShoppingCart <= 50 ){
-      totalShoppingCart = totalShoppingCart + spedizione;}
+  totalShoppingCart = totalShoppingCart - (totalShoppingCart * 0.2)
 
-      console.log(totalShoppingCart)
-  
+  let spedizione = 10
+
+  if (totalShoppingCart <= 50) {
+    totalShoppingCart = totalShoppingCart + spedizione;
+  }
+
+  console.log(totalShoppingCart)
+
 }
 
 /* ESERCIZIO 7
@@ -140,46 +120,37 @@ if (numero1 == 8
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
-let a = 5
-let b = 9
-let c = 8
+  let a = 5
+  let b = 9
+  let c = 8
 
-if (a > b && a > c)
-{
-        if (b>c)
-        {
-            console.log(`La sequenza sarà ${a} ${b} ${c}`);
-        }
-        else
-        {
-            console.log(`La sequenza sarà ${a} ${c} ${b}`);
-        }
-}
-else if (b > a && b > c)
-{
-        if (a>c)
-        {
-             console.log(`la sequenza sarà ${b} ${a} ${c}`);
-        }
-        else
-        {
-             console.log(`la sequenza sarà ${b} ${c} ${a}`);
-        }
-}
-else if (c > a && c > b)
-{
-        if (a>b)
-        {
-            console.log(`la sequenza sarà ${c} ${a} ${b}`);
-        }
-        else
-        {
-            console.log(`la sequenza sarà ${c} ${b} ${a}`);
-        }
+  if (a > b && a > c) {
+    if (b > c) {
+      console.log(`La sequenza sarà ${a} ${b} ${c}`);
+    }
+    else {
+      console.log(`La sequenza sarà ${a} ${c} ${b}`);
+    }
+  }
+  else if (b > a && b > c) {
+    if (a > c) {
+      console.log(`la sequenza sarà ${b} ${a} ${c}`);
+    }
+    else {
+      console.log(`la sequenza sarà ${b} ${c} ${a}`);
+    }
+  }
+  else if (c > a && c > b) {
+    if (a > b) {
+      console.log(`la sequenza sarà ${c} ${a} ${b}`);
+    }
+    else {
+      console.log(`la sequenza sarà ${c} ${b} ${a}`);
+    }
 
 
 
-}
+  }
 }
 
 /* ESERCIZIO 8
@@ -189,12 +160,11 @@ else if (c > a && c > b)
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
 
-let parola = 20
-console.log(typeof parola);
+  let parola = 20
+  console.log(typeof parola);
 
-if(typeof parola == "number" )
-{console.log("questo è un numero")}
-else {console.log("non è un numero")}
+  if (typeof parola == "number") { console.log("questo è un numero") }
+  else { console.log("non è un numero") }
 
 
 
@@ -207,11 +177,11 @@ else {console.log("non è un numero")}
 {
 
 
-let numero = 7
+  let numero = 7
 
-if(numero % 2 == 0 ){
-  console.log("è un numero pari")
-}else console.log("è un numero dispari");
+  if (numero % 2 == 0) {
+    console.log("è un numero pari")
+  } else console.log("è un numero dispari");
 
 
 }
@@ -219,15 +189,15 @@ if(numero % 2 == 0 ){
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
 
-  let val = 3
+let val = 3
 
-  if (val >= 5 && val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
+if (val >= 5 && val < 10) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -236,15 +206,15 @@ if(numero % 2 == 0 ){
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
 {
-const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  const me = {
+    name: 'John',
+    lastName: 'Doe',
+    skills: ['javascript', 'html', 'css'],
+  }
 
-me.city = "Toronto"
+  me.city = "Toronto"
 
-console.log(me);
+  console.log(me);
 }
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -259,15 +229,15 @@ console.log(me);
     lastName: 'Doe',
     skills: ['javascript', 'html', 'css'],
   }
-  
+
   me.city = "Toronto"
-  
-  
+
+
   delete me.lastName;
 
   console.log(me);
 
-  }
+}
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -275,22 +245,22 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
-const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  const me = {
+    name: 'John',
+    lastName: 'Doe',
+    skills: ['javascript', 'html', 'css'],
+  }
 
-me.city = "Toronto"
+  me.city = "Toronto"
 
 
-delete me.lastName;
+  delete me.lastName;
 
-//console.log(me);
+  //console.log(me);
 
-me.skills.pop()
+  me.skills.pop()
 
-console.log(me);
+  console.log(me);
 
 }
 
@@ -301,7 +271,7 @@ console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
   let arr = []
-  arr.push(1,2,3,4,5,6,7,8,9,10)
+  arr.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
   console.log(arr);
 }
@@ -312,9 +282,9 @@ console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 {
   let arr = []
-  arr.push(1,2,3,4,5,6,7,8,9,10)
+  arr.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-  arr[arr.length-1 ] = 100
+  arr[arr.length - 1] = 100
 
   console.log(arr);
 }
