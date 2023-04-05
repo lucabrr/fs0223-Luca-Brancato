@@ -11,7 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/*RISPOSTA 1: I datatype in javascript sono tipoligie di dati, di diverso tipo:/
+/*RISPOSTA 1: I datatype in javascript sono tipologie di dati, di diverso tipo:/
          /*  - STRING = sono le tipologie di dati formati soltanto da caratteri tra apici */ let testo = 'sdffh'
          /*  - NUMBER = sono le tipologie di dati formati soltanto da numeri */ let numero = 40
          /*  - BOOLEAN = sono le tipologie di dati formati soltanto da booleani che ritornano un risultato vero o falso */ let boleano = true
