@@ -1,0 +1,167 @@
+/* GENERALI */
+a {text-decoration: none; }
+body {font-family: Arial, Helvetica, sans-serif;}
+/* HEADER */
+#sfondo1{
+    
+    background-color: rgb(34, 47, 63);
+    height: 55px;
+
+}
+#logo {
+    width: 100px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px
+}
+.rigaMenu {
+    background-color:#364759;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.rigaMenu a {
+    color: white;
+    padding: 0px 10px;
+
+}
+/* MAIN */
+main{
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: #E9EDEE;
+}
+#rigaArancione{
+    background-color: #F56600;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#bannerVerde{
+    background-image: url(../imgs/bannerVerde.png);
+    height: 160px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#bannerVerde h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+#bannerVerde p{
+    color: white;
+    font-weight: bold;
+}
+#mainDiv{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.frase{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+.frase h3{
+    margin-right: 15px;
+    font-weight: bold;
+}
+.frase a {
+    color: #3A8F99;
+    font-weight: bold;
+}
+#imgsContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+   
+    
+    
+}
+#tablet{
+    background-image: url(../imgs/tablet.jpg);
+    background-size: cover;
+    
+}
+#laptop{
+    background-image: url(../imgs/laptop.jpg);
+    background-size: cover;
+   
+}
+#orologi{
+    background-image: url(../imgs/orologi.jpg);
+    background-size: cover;
+    
+}
+#cane{
+    background-image: url(../imgs/caneGatto.jpg);
+    background-size: cover;
+    
+}
+.immagini{
+    height: 380px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 40px 80px;
+    box-shadow: 5px 5px 10px 2px #3333333a;
+}
+#fotoGigante1{
+    background-image: url(../imgs/visore.png);
+    
+}
+#fotoGigante2{
+    background-image: url(../imgs/cuffie.png);
+    
+}
+.fotoGiganteGeneral{
+    height: 450px;
+    
+}
+.bloccoFotoGrandi{
+    margin-bottom: 25px;
+
+}
+.frase2{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.frase2 h3{
+    
+    font-weight: bold;
+    margin-right: 15px;
+}
+.frase2 a {
+    color: #3A8F99;
+    font-weight: bold;
+}
+/* FOOTER */
+#back {
+   justify-content: center;
+   height: 60px;
+}
+#ultimoLogo{
+    background-color:rgb(34, 47, 63) ;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoFinale{
+    height:80px ;
+    width:250px ;
+}
