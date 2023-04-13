@@ -206,6 +206,7 @@ const movies = [
 /* ESERCIZIO 10
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
+console.error("----");
 function trovaPiuVecchio() {
   result = movies.reduce((p,s) =>
   {if (p.Year <= s.Year){return p}else{return s} })
