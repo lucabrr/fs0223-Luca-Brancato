@@ -408,15 +408,18 @@ function halfTree(numero) {
 function tree(numero) {
   
   let spazio = " "
-  let str = "   *"
+  let str = "  *"
   let str2 = "*"
   console.log(str);
   for(i = 0; i < numero; i++) {
-    str2 = str2.concat("*") 
+    str2 = str2.concat("**")
+    str2 = str2.split("")
+    str2.unshift(" ")
+    str2 = str2.join("") 
       console.log(str2)
   }
 }
-tree(5)
+tree(2)
 
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
