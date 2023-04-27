@@ -1,6 +1,7 @@
 body {
   font-family: "Indie Flower";
   height: 100vh;
+  background: darkgrey;
 }
 main {
   height: 100%;
