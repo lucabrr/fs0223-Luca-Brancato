@@ -1,0 +1,120 @@
+body {
+  font-family: "Indie Flower";
+  height: 100vh;
+}
+main {
+  height: 100%;
+}
+h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+.post {
+  width: 350px;
+  height: 250px;
+  box-shadow: 7px 7px 15px -4px rgba(0, 0, 0, 0.56);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin: 25px;
+}
+#postContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 100px;
+  background-color: darkgrey;
+}
+#post1,
+#post5,
+#post7 {
+  background-color: #f9fac8;
+}
+#post2,
+#post4,
+#post8 {
+  background-color: #c8f8ca;
+}
+#post3,
+#post6 {
+  background-color: #c5c5f0;
+}
+/* POST ROTATE */
+#post1 {
+  transform: rotate(-5deg);
+  transition: all 0.5s linear;
+}
+#post2{
+  transform: rotate(4deg);
+  transition: all 0.5s linear;
+}
+#post3 {
+  transform: rotate(-6deg);
+  transition: all 0.5s linear;
+}
+#post4 {
+  transform: rotate(5deg);
+  transition: all 0.5s linear;
+}
+#post5 {
+  transform: rotate(-3deg);
+  transition: all 0.5s linear;
+}
+#post6 {
+  transform: rotate(-7deg);
+  transition: all 0.5s linear;
+}
+#post7 {
+  transform: rotate(-5deg);
+  transition: all 0.5s linear;
+}
+#post8 {
+  transform: rotate(8deg);
+  transition: all 0.5s linear;
+}
+#post1:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+#post2:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+#post3:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+#post4:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+
+#post5:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+
+#post6:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+
+#post7:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+
+#post8:hover{
+    transform: rotate(0deg) scale(1.1)
+    
+}
+
+
+
+
