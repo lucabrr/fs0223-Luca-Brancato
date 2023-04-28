@@ -16,6 +16,10 @@ nav{
     justify-content: space-between;
     height: 80px;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffc017;
 }
 nav a{
     color: #191919;
@@ -55,6 +59,7 @@ nav div button{
 #titleAndM{
     display: flex;
     justify-content: space-between;
+    padding-top: 70px;
 }
 #mContainer{
      height: 450px;
@@ -244,4 +249,8 @@ div #topBord{
 }
 div ul li {
    margin: 10px;
+}
+#asideItemsContainer{
+    position: sticky;
+    top: 100px;
 }
