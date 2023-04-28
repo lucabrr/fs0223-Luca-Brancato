@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;700&display=swap');
+/* colore giallo = #ffc017
+colore nero #191919
+colore verde #1a8917 */  
+a {
+    text-decoration: none;
+}
+header{
+    background-color: #ffc017;
+    border-bottom: 1px solid  #191919 ;
+}
+nav{
+    font-family: 'Roboto', sans-serif; ;
+    display: flex;
+    border-bottom: 1px solid #191919 ;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+nav a{
+    color: #191919;
+    text-decoration: none;
+}
+button a {
+    color: white;
+}
+nav img {
+    
+    width: 200px;
+    margin-left: 100px;
+}
+nav div{
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+nav div ul {
+    display: flex;
+    list-style: none;
+}
+nav div ul li {
+    margin-right: 20px;
+}
+nav div button{
+    color: white;
+    background-color: #191919;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    
+}
+/* FINE PARTE NAV */
+#titleAndM{
+    display: flex;
+    justify-content: space-between;
+}
+#mContainer{
+     height: 450px;
+   
+}
+#titleContainer{
+    font-family: 'Spectral', serif;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+
+#titleContainer h2{
+    
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#titleContainer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    width: 600px;
+    margin-bottom: 50px;
+}
+#titleContainer button{
+    background-color: #191919;
+    color: white;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 1.3em;
+    height: 40px;
+    border: none;
+}
+/*  FINE HEADER */
+
+#articlesContainer{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+    padding: 0px 200px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+#articlesContainer h4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+   top: 45px;
+   left: 308px;
+
+}
+.articles{
+    display: flex;
+    font-size: 14px;
+    margin: 30px 100px;
+    width: 300px;
+}
+.articles .numbers{
+    color: gray;
+    font-size: 2em;
+    margin-right: 10px;
+    position: relative;
+    
+}
+
+.articles p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.articles p img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.articles h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.articles span{
+    color: darkgray;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+/* FINE ARTICOLI PARTE 1 */
+
+#asidePlusArticles{
+    display: flex;
+    justify-content: space-around;
+}
+.bigArticles{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 20px 50px 140px;
+    justify-content: space-between;
+
+}
+.bigArticles p img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;}
+.bigArticles .autors{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bigArticles h4 {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 5px;
+}
+.bigArticles .description{
+    color: grey;
+    margin-bottom: 5px;
+}
+.bigArticles .data{
+    font-size: 13px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.imgContainer{
+    height: 100px;
+    width: 100px;
+}
+.bigArticles img{
+    height: 150px;
+    width: 250px;
+}
+.bigArticles div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px
+}
+.bigArticles div .icona{
+    height: 20px;
+    width: 20px;
+}
+.bigArticles div .bookmark{
+    position: absolute;
+    right: 40px;
+    height: 25px;
+    width: 30px;
+}
+/* FINE ARTICOLI GRANDI */
+aside{
+    width: 100%;
+    padding: 100px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    color: grey
+    
+}
+aside h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #191919;
+    margin-bottom: 20px;
+}
+aside div span{
+border: 1px solid lightgray;
+padding: 10px 20px;
+margin:5px
+
+}
+aside #argumentContainer{
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+div #topBord{
+    border-top: 1px solid lightgray;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+div ul li {
+   margin: 10px;
+}
