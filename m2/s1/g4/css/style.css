@@ -336,6 +336,7 @@ div ul li {
     }
     #articlesContainer{
         padding: 0px;
+        justify-content: flex-start;
     }
     #asidePlusArticles{
         display: flex;
@@ -363,10 +364,31 @@ div ul li {
     }
     #articlesContainer h4{
         top: 4px;
+        left: 165px;
     }
     #mContainer{
         display: none;
         position: absolute;
     }
+    #titleContainer p {
+        width: auto;
+    }
+    nav div ul li:first-child{
+        display: none;
+        position: absolute;
+    }
+    nav div ul li:nth-child(2){
+        display: none;
+        position: absolute;
+    }
+    nav div ul li:nth-child(3){
+        display: none;
+        position: absolute;
+    }
+    nav img{
+        margin: 0px;
+    }
+    /* nav div ul li.parole i:nth-child(2){}
+    nav div ul li.parole i:nth-child(3){} */
 
 }
