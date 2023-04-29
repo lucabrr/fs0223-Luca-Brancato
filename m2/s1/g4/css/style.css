@@ -264,10 +264,25 @@ div ul li {
         background-color:white
     }
     
+    
 }
 
 .animated{
-    animation:scrollChange 0.5s linear 0s forwards;
+    animation:scrollChange 0.5s linear 0s forwards ;
+}
+@keyframes scrollChange2{
+
+    0%{
+        background-color: white;   
+    }
+    100%{
+        background-color:#ffc017
+    }
+    
+    
+}
+.animated2{
+    animation:scrollChange2 0.5s linear 0s  forwards;
 }
 @keyframes buttonChange{
     0%{
@@ -279,6 +294,17 @@ div ul li {
 }
 .buttonAnimation{
     animation: buttonChange  0.5s linear 0s forwards
+}
+@keyframes buttonChange2{
+    0%{
+        background-color: #1a8917;
+    }
+    100%{
+        background-color: #191919;
+    }
+}
+.buttonAnimation2{
+    animation: buttonChange2  0.5s linear 0s forwards
 }
 /* TABLET */
 @media screen and (max-width: 903px) and (min-width: 553px){ 
