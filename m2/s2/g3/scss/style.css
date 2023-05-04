@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: rgb(136, 117, 176);
+  margin-bottom: 20px;
+}
+nav img {
+  width: 200px;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 5px;
+}
+nav ul li a {
+  color: rgb(221, 221, 231);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+main #headline {
+  background-color: #640fe5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+}
+main #headline #btn-1 {
+  background-color: #ff8700;
+  padding: 10px 15px;
+  margin-right: 15px;
+  color: aliceblue;
+}
+main #headline #btn-1:hover {
+  background-color: wheat;
+  cursor: pointer;
+  transform: scale(1.2);
+  color: black;
+}
+main #headline #btn-2 {
+  background-color: #0e6cff;
+  padding: 10px 15px;
+  margin-right: 15px;
+  color: aliceblue;
+}
+main #headline #btn-2:hover {
+  background-color: wheat;
+  cursor: pointer;
+  transform: scale(1.2);
+  color: black;
+}
+main #headline #btn-3 {
+  background-color: #4caf50;
+  padding: 10px 15px;
+  margin-right: 15px;
+  color: aliceblue;
+}
+main #headline #btn-3:hover {
+  background-color: wheat;
+  cursor: pointer;
+  transform: scale(1.2);
+  color: black;
+}
+
+#roba {
+  display: flex;
+  justify-content: center;
+}
+#roba span {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#roba #description {
+  background-color: burlywood;
+  font-size: 1.3em;
+  padding: 15px;
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  flex-grow: 0;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

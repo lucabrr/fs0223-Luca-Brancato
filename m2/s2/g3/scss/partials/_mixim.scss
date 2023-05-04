@@ -1,0 +1,7 @@
+@mixin basicBtn {
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+@mixin btnScale ($scaleValue){
+    transform: scale($scaleValue);
+}

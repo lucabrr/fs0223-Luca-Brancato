@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    #headline{
+        background-color:$bg-hero;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+        color:white ;
+        #btn-1{
+            background-color: $btn1-color;
+            @include basicBtn;
+            color: aliceblue;
+            &:hover{
+                background-color: wheat;
+                cursor: pointer;
+                @include btnScale(1.2);
+                color: black;
+
+            }
+        }
+        #btn-2{
+            background-color: $btn2-color;
+             @include basicBtn;
+            color: aliceblue;
+
+
+            &:hover{
+                background-color: wheat;
+                cursor: pointer;
+                @include btnScale(1.2);
+                color: black;
+
+
+            }
+        }
+        #btn-3{
+            background-color: $btn3-color;
+            @include basicBtn;
+            color: aliceblue;
+
+
+            &:hover{
+                background-color: wheat;
+                cursor: pointer;
+                @include btnScale(1.2);
+                color: black;
+
+
+            }
+        }
+
+    }
+}

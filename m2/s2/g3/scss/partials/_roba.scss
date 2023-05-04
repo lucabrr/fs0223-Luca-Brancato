@@ -1,0 +1,12 @@
+#roba{
+    display: flex;
+    justify-content: center;
+    span{
+        height: fit-content;
+    }
+    #description{
+        background-color: burlywood;
+        font-size: 1.3em;
+        padding: 15px;
+    }
+}
