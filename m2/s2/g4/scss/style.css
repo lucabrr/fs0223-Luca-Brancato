@@ -1,0 +1,16 @@
+nav #logo {
+  width: 100px;
+}
+nav #avatar {
+  width: 25px;
+}
+nav #iconGroup {
+  margin-right: 100px !important;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  #iconGroup {
+    display: flex !important;
+  }
+}/*# sourceMappingURL=style.css.map */
