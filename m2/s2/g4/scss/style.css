@@ -13,4 +13,7 @@ nav #iconGroup {
   #iconGroup {
     display: flex !important;
   }
+}
+.films:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
