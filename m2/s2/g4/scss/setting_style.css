@@ -1,0 +1,39 @@
+main a {
+  color: #0d9df0 !important;
+}
+
+nav #logo {
+  width: 100px;
+}
+nav #avatar {
+  width: 25px;
+}
+nav #iconGroup {
+  margin-right: 100px !important;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  #iconGroup {
+    display: flex !important;
+  }
+}
+#avatar {
+  width: 50px;
+}
+
+@media screen and (min-width: 475px) and (max-width: 767px) {
+  #hdContainer {
+    display: flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  .columnSelector {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=setting_style.css.map */
