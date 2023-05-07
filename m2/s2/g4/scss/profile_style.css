@@ -1,3 +1,7 @@
+header {
+  background: #000000;
+  background: linear-gradient(to bottom, #000000 0%, #212529 91%, #212529 100%);
+}
 header img {
   width: 100px;
 }
