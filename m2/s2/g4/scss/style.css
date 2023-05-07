@@ -21,4 +21,8 @@ nav #iconGroup {
 }
 .films:hover {
   transform: scale(1.1);
+}
+
+.films {
+  transition: all 0.5s;
 }/*# sourceMappingURL=style.css.map */
