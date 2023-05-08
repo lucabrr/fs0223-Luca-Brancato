@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        width: 200px;
+      }
+      button {
+        width: 200px;
+      }
+      li {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="get">
+      <label for="nome proprietario">nome propretario</label>
+      <input id="nome" type="text" />
+      <label for="nome animale">nome animale</label>
+      <input id="nomeAnimale" type="text" />
+      <label for="specie">specie</label>
+      <input id="specie" type="text" />
+      <label for="razza">razza</label>
+      <input id="razza" type="text" />
+      <button>invia dati</button>
+    </form>
+    <h2>lista</h2>
+    <ul id="list"></ul>
+    <script src="index_script.js"></script>
+    <script src="./form_script.js"></script>
+  </body>
+</html>
