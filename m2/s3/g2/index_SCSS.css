@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  margin: 0;
+}
+html body #container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body #container form #previousName {
+  margin-bottom: 50px;
+}
+html body #container form #buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#timerContainer {
+  display: flex;
+  text-align: end;
+  font-size: 2em;
+  font-weight: bold;
+  color: orangered;
+  margin: 0px;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+}/*# sourceMappingURL=index_SCSS.css.map */
