@@ -32,8 +32,8 @@ const timer = function(){
     sessionStorage.setItem("tempo",seconds) 
    seconds++
    if(seconds === 60){minuts++, seconds = 0}
-   timerContainer.textContent = seconds
-   minutsContainer.textContent = minuts
+   timerContainer.innerText = seconds
+   minutsContainer.innerText = minuts
 }
 
 setInterval(timer,1000)
