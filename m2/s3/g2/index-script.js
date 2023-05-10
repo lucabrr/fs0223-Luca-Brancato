@@ -35,5 +35,5 @@ const timer = function(){
    timerContainer.innerText = seconds
    minutsContainer.innerText = minuts
 }
-
+timer()
 setInterval(timer,1000)
