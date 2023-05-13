@@ -32,7 +32,7 @@
     productTitle.innerText = product.name
     productBrand.innerText = product.brand
     productDescription.innerText = product.description
-    productPrice.innerText = `Prezzo : ${product.price}$`
+    productPrice.innerText = `Prezzo €${product.price}`
 
 
 

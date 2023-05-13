@@ -41,7 +41,7 @@ window.onload = function (){
               ${product.description}
             </p>
             <p class="card-text">
-              prezzo : ${product.price}$
+              Prezzo €${product.price}
             </p>
             <span class="d-flex justify-content-between">
               <a href="./backOffice.html?productID=${product._id}" class="text-decoration-none">Modifica</a>
