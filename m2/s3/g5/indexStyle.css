@@ -1,0 +1,13 @@
+.truncate {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card{
+    transition: all 0.2s
+  }
+  .card:hover{
+    transform: scale(0.9);
+  }
