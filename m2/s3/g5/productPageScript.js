@@ -1,5 +1,8 @@
 
     let barID = new URLSearchParams(window.location.search).get("productID")
+    let chart = JSON.parse(localStorage.getItem("chart")) || []
+    const addChartButton = document.getElementById("addChart") 
+    console.log("carrello",chart);
     
 
 
@@ -33,6 +36,19 @@
     productBrand.innerText = product.brand
     productDescription.innerText = product.description
     productPrice.innerText = `Prezzo €${product.price}`
+
+    addChartButton.addEventListener("click",()=>{
+       let productJson = product//JSON.stringify(product)
+       console.log("prodotto strighifizzato");
+       console.log("controllo dentro chart",chart);
+        chart.push(productJson)
+        let chartJson = JSON.stringify(chart)
+        console.log("chartJson",chartJson);
+        localStorage.setItem("chart",chartJson)
+
+        
+
+    })
 
 
 
