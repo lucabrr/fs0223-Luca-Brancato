@@ -49,7 +49,7 @@ if(chart.length > 0){
                   ${product.description}
                 </p>
                 <p class="card-text" id="productPrice">
-                  ${product.price}
+                  €${product.price}
                 </p>
 
                 <span
