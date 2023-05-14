@@ -104,19 +104,114 @@
                 />
               </div>
 
-              <button type="submit" class="btn btn-primary" id="addOrEdit">
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="addOrEdit"
+                data-bs-toggle="modal"
+                data-bs-target="#forAddOrEdit"
+              >
                 Aggiungi Prodotto
               </button>
               <button
                 type="button"
                 class="btn btn-danger d-none"
-                id="deleteButton"
+                data-bs-toggle="modal"
+                data-bs-target="#DeletingModal"
+                id="preDeleteButton"
               >
                 Cancella prodotto
               </button>
               <button type="button" class="btn btn-warning" id="resetButton">
                 Reset
               </button>
+
+              <div
+                class="modal fade"
+                id="forAddOrEdit"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Attenzione!
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Sei sicuro di voler proseguire?
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="submit"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Confermo
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Annulla
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="modal fade"
+                id="DeletingModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Attenzione!
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Sei sicuro di voler proseguire?
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="deleteButton"
+                        data-bs-dismiss="modal"
+                      >
+                        Confermo
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Annulla
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>

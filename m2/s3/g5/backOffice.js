@@ -19,6 +19,8 @@ const form = document.getElementsByTagName("form")[0]
         title.innerText = "Modifica i dati del prodotto"
         let deleteButton = document.getElementById("deleteButton")
         deleteButton.classList.remove("d-none")
+        let preDeleteButton = document.getElementById("preDeleteButton")
+        preDeleteButton.classList.remove("d-none")
         let addOrEditButton = document.getElementById("addOrEdit")
         addOrEditButton.innerText = "Modifica prodotto"
         let productID = new URLSearchParams(window.location.search).get("productID")
@@ -71,6 +73,11 @@ const form = document.getElementsByTagName("form")[0]
         if (res.ok) {
             console.log("Eliminazione effettuata");
             alertSuccess.classList.remove("d-none")
+            productName.value = ""
+            productDescription.value = ""
+            productBrand.value = ""
+            productImg.value = ""
+            productPrice.value = ""
 
             }else{
                 throw new Error("qualcosa è andato storto")
