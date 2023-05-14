@@ -45,6 +45,9 @@
         let chartJson = JSON.stringify(chart)
         console.log("chartJson",chartJson);
         localStorage.setItem("chart",chartJson)
+        const alertSuccess = document.getElementById("alertSuccess")
+        alertSuccess.classList.remove("d-none")
+        
 
         
 

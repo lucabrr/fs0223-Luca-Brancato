@@ -112,6 +112,8 @@ if(chart.length > 0){
     }else{
       let totalChart = document.getElementById("totalChart")
       totalChart.innerText = `il totale del tuo carrello è : 0€`
+      let chartP = document.getElementById("chartDescription")
+    chartP.innerText = "Il tuo carrello è vuoto"
       
     }
    }
