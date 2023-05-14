@@ -98,4 +98,22 @@ if(chart.length > 0){
     console.log(chart);
     console.log("json",chartJson);
     localStorage.setItem("chart", chartJson) 
+    getTotalChart()
    }
+   const getTotalChart = function(){
+    if (chart.length > 0) {
+      let totalChart = document.getElementById("totalChart")
+      
+      let total = 0
+      for (const product of chart) {
+        total += product.price
+      }
+      totalChart.innerText = `il totale del tuo carrello è : ${total}€`
+    }else{
+      let totalChart = document.getElementById("totalChart")
+      totalChart.innerText = `il totale del tuo carrello è : 0€`
+      
+    }
+   }
+   getTotalChart()
+   
