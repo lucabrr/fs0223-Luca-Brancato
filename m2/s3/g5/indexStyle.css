@@ -10,6 +10,7 @@
   }
   .card:hover{
     transform: scale(0.9);
+    border: solid 1px black;
   }
 
   section a{
