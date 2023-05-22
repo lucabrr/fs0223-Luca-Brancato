@@ -19,4 +19,5 @@ const whoWins:Function = function(p1:number,p2:number){
     }
 }
 
+
 console.log(whoWins(10,90));
