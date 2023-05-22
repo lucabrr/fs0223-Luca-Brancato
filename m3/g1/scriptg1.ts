@@ -18,4 +18,5 @@ const whoWins:Function = function(p1:number,p2:number){
                 else if (differenzaP1 === differenzaP2){return `i numeri P1:${p1} e P2:${p2} sono distanti da ${numeroCasuale} allo stesso modo`}
     }
 }
+
 console.log(whoWins(10,90));
