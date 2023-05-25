@@ -1,7 +1,6 @@
 fetch("./starter/abbigliamento.json")
 .then((res)=> res.json())
 .then((res)=> {let capi = res
-console.log(capi[0]);
 
 class Garment {
     capo:string
@@ -67,6 +66,8 @@ for (const articolo of capi) {
         contenitoreCapi.push(art)
         
 }
+console.log(contenitoreCapi);
+
 contenitoreCapi[0].mostraPrezzo()
 contenitoreCapi[1].mostraPrezzo()
 contenitoreCapi[2].mostraPrezzo()

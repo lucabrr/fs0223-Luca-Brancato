@@ -2,7 +2,6 @@ fetch("./starter/abbigliamento.json")
     .then(function (res) { return res.json(); })
     .then(function (res) {
     var capi = res;
-    console.log(capi[0]);
     var Garment = /** @class */ (function () {
         function Garment(_capo, _codprod, _collezione, _colore, _disponibile, _id, _modello, _prezzoivaesclusa, _prezzoivainclusa, _quantita, _saldo) {
             this.capo = _capo;
@@ -28,6 +27,7 @@ fetch("./starter/abbigliamento.json")
         var art = new Garment(articolo.capo, articolo.codprod, articolo.collezione, articolo.colore, articolo.disponibile, articolo.id, articolo.modello, articolo.prezzoivaesclusa, articolo.prezzoivainclusa, articolo.quantita, articolo.saldo);
         contenitoreCapi.push(art);
     }
+    console.log(contenitoreCapi);
     contenitoreCapi[0].mostraPrezzo();
     contenitoreCapi[1].mostraPrezzo();
     contenitoreCapi[2].mostraPrezzo();
