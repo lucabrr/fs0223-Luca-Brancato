@@ -1,7 +1,3 @@
-fetch("./starter/abbigliamento.json")
-.then((res)=> res.json())
-.then((res)=> {let capi = res
-
 class Garment {
     capo:string
     codprod:number
@@ -48,6 +44,29 @@ class Garment {
         }
         
     }
+    type GarmentType = {capo:string
+        codprod:number
+        collezione:string
+        colore:string
+        disponibile:string
+        id:number
+        modello:number
+        prezzoivaesclusa:number
+        prezzoivainclusa:number
+        quantita:number
+        saldo:number
+        }
+
+
+
+
+fetch("./starter/abbigliamento.json")
+.then((res)=> res.json())
+.then((res)=> {let capi:GarmentType[] = res
+    
+    
+
+
     let contenitoreCapi:Garment[] = []
 for (const articolo of capi) {
     let art:Garment =
