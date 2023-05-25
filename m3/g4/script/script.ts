@@ -61,7 +61,7 @@ class Garment {
 
 
 fetch("./starter/abbigliamento.json")
-.then((res)=> res.json())
+.then((res:Response)=> res.json())
 .then((res)=> {let capi:GarmentType[] = res
     
     
