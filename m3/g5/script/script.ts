@@ -82,8 +82,8 @@ smartPhone1.azzeraChiamate()
 console.log("check chiamate post azzeramento",smartPhone1.getNumeroChiamate());
 console.log("registro chiamate smartphone1 = ", smartPhone1.mostraRegistroChiamate());
 console.log("filtro chiamata",smartPhone1.filtraChiamatePerDataOra("26/5/2023"));
-smartPhone1.chiamata(5,3278853823)
-smartPhone1.chiamata(5,3278853823)
+smartPhone1.chiamata(10,32745454545)
+smartPhone1.chiamata(4,999324546)
 console.log("filtro chiamata post altre chiamate",smartPhone1.filtraChiamatePerDataOra("26/5/2023"));
 
 
