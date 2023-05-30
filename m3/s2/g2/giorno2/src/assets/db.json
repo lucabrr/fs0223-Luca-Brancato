@@ -1,0 +1,32 @@
+[
+  {
+"id" : 1,
+"body" : "frase a caso ",
+"title": "ma io che ne so",
+"active": true
+},
+{
+  "id" : 2,
+  "body" : "seconda frase a caso oooooo",
+  "title": "secondo titolooooo",
+  "active": true
+  },
+  {
+    "id" : 3,
+    "body" : "sopra la panca? ",
+    "title": "La capra",
+    "active": true
+    },
+    {
+      "id" : 4,
+      "body" : "bla bla bla bal balbabalbaba",
+      "title": "bla?",
+      "active": false
+      },
+      {
+        "id" : 5,
+        "body" : "articolo super adjfbsalkhjgbalsdfbglasdhfgasjhf ",
+        "title": " titolo dell' ultimo post",
+        "active": false
+        }
+]
