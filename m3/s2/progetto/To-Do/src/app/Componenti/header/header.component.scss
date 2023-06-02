@@ -1,0 +1,22 @@
+nav{
+  font-weight: bold;
+  font-size: 1.6em;
+  display: flex;
+  justify-content: center;
+  a{
+    text-decoration: none;
+    margin: 0px 20px;
+  }
+  a:hover{
+    color: lightskyblue;
+  }
+
+
+}
+
+#todos{
+  color:#8A33B4 ;
+}
+#todos:hover{
+  color: lightskyblue;
+}

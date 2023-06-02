@@ -1,0 +1,30 @@
+<div>
+  <ol>
+    <li *ngFor="let punto of lista; let i = index">
+      <ng-container *ngIf="punto.completed === false">
+        <p>
+          <span>{{ i + 1 }}</span>
+          {{ punto.title }}
+          <i
+            (click)="taskCompletato(punto)"
+            class="bi bi-check-square-fill"
+          ></i>
+          <i
+            (click)="cancellaTask(punto.id)"
+            id="deleteI"
+            class="bi bi-trash3"
+          ></i>
+        </p>
+      </ng-container>
+    </li>
+  </ol>
+  <form>
+    <input
+      [(ngModel)]="punto.title"
+      type="text"
+      placeholder="scrivi task"
+      name="title"
+    />
+    <button (click)="creaTask()">+</button>
+  </form>
+</div>
