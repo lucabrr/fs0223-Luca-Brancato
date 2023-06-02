@@ -1,4 +1,8 @@
 <div>
+  <ng-container *ngIf="lista.length === 0 && !loading"
+    ><h2>Ops non ci sono task da completare...</h2></ng-container
+  >
+  <ng-container *ngIf="loading"><h2>Sto caricando...</h2></ng-container>
   <ol>
     <li *ngFor="let punto of lista; let i = index">
       <ng-container *ngIf="punto.completed === false">
@@ -18,13 +22,13 @@
       </ng-container>
     </li>
   </ol>
-  <form>
+  <form *ngIf="!loading">
     <input
       [(ngModel)]="punto.title"
       type="text"
       placeholder="scrivi task"
       name="title"
     />
-    <button (click)="creaTask()">+</button>
+    <button (click)="creaTask(); svuotaInut()">+</button>
   </form>
 </div>

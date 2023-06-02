@@ -6,6 +6,7 @@ import { TodoClass } from './Classi/todo-class';
 })
 export class ToDoServiceService {
   apiUrl:string = "http://localhost:3000/liste"
+  loading:boolean =true
 
   constructor() {}
   getList():Promise<TodoClass[]>{

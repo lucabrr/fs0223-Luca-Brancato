@@ -11,12 +11,18 @@ font-family: 'Roboto', sans-serif;
 i{
   margin-left: 10px;
   color: green;
+
 }
 i:hover{
   cursor: pointer;
+  color: gray;
 }
 #deleteI
  {color: red;}
+ #deleteI:hover{
+  color: gray;
+
+ }
 
  ol{
   list-style:none;
