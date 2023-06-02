@@ -1,0 +1,9 @@
+ho interpretato la crud cosi:
+lettura dell'array all' inizializzazione delle pagine
+un pulsate che crea la task
+un pulsate che modifica un valore della task
+e uno che cancella la task 
+tutte le fetch sono collegate al server json.
+per impegni riesco a lavorare solo il venerdi,
+ti chiedo di lasciarmi un commento su qualche errore (ci sta sicuramente nella tipizzazione)
+e dove posso migliorare , grazie mic.

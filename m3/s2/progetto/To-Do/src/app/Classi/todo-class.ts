@@ -1,4 +1,6 @@
-export class TodoClass {
+import { Itodo } from "../itodo"
+
+export class TodoClass implements Itodo {
   id?:number
   title:string
   completed:boolean

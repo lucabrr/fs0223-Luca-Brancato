@@ -25,9 +25,7 @@ ngOnInit(){
   })
 
 }
-svuotaInut():void{
-  this.punto.title=""
-}
+
 creaTask(){
   this.loading=true
   this.todoSvc.createTask(this.punto)

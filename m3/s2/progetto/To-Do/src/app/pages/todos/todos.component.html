@@ -5,7 +5,7 @@
   <ng-container *ngIf="loading"><h2>Sto caricando...</h2></ng-container>
   <ol>
     <li *ngFor="let punto of lista; let i = index">
-      <ng-container *ngIf="punto.completed === false">
+      <ng-container *ngIf="punto.completed === false && !loading">
         <p>
           <span>{{ i + 1 }}</span>
           {{ punto.title }}
@@ -29,6 +29,6 @@
       placeholder="scrivi task"
       name="title"
     />
-    <button (click)="creaTask(); svuotaInut()">+</button>
+    <button (click)="creaTask()">+</button>
   </form>
 </div>
