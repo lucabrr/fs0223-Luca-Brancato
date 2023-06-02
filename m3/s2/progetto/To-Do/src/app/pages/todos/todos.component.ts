@@ -16,7 +16,9 @@ export class TodosComponent implements OnInit {
 
 ngOnInit(){
   this.todoSvc.getList()
-  .then((res)=>{this.lista = res; console.log("lista task all'inizializzazione",this.lista);
+  .then((res)=>{this.lista = res;
+     this.lista = this.lista.filter((punto)=> punto.completed===false);
+     console.log("lista task all'inizializzazione",this.lista);
   })
 }
 creaTask(){
@@ -25,6 +27,8 @@ creaTask(){
   //aggiorno dopo avere creato nuova task
   this.todoSvc.getList()
   .then((res)=>{this.lista = res;
+     this.lista = this.lista.filter((punto)=> punto.completed===false);
+     console.log("lista task all'inizializzazione",this.lista);
   })
 }
 cancellaTask(id :number | undefined){
