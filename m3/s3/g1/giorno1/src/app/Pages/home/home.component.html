@@ -1,0 +1,19 @@
+<div class="container">
+  <p class="fs-2">Post che ti piacciono : {{ LikedArray.length }}</p>
+  <div class="row">
+    <div class="col-4" *ngFor="let post of postArray">
+      <div class="card m-3" style="width: 18rem">
+        <img src="{{ post.imgUrl }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">{{ post.title }}</p>
+          <span class="d-flex justify-content-between">
+            <button class="btn btn-success" (click)="save(post)">Salva</button>
+            <button class="btn btn-danger" (click)="cancella(post.id)">
+              Elimina
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
