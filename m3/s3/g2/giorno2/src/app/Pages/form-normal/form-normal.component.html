@@ -1,0 +1,50 @@
+<form #heroForm="ngForm" (ngSubmit)="post(heroForm)">
+  <input
+    required
+    ngModel
+    placeholder="Nome"
+    type="text"
+    name="name"
+    class="form-control mb-2"
+  />
+  <input
+    required
+    ngModel
+    placeholder="alterEgo"
+    type="text"
+    name="alterEgo"
+    class="form-control mb-2"
+  />
+  <input
+    required
+    ngModel
+    placeholder="power"
+    type="text"
+    name="power"
+    class="form-control mb-2"
+  />
+  <input
+    required
+    ngModel
+    placeholder="enemy"
+    type="text"
+    name="enemy"
+    class="form-control mb-2"
+  />
+  <input
+    required
+    ngModel
+    placeholder="planet"
+    type="text"
+    name="planet"
+    class="form-control mb-2"
+  />
+  <input
+    ngModel
+    placeholder="weaknes"
+    type="text"
+    name="weaknes"
+    class="form-control mb-2"
+  />
+  <button class="btn btn-success" [disabled]="!heroForm.valid">Invia</button>
+</form>

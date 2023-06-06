@@ -1,0 +1,57 @@
+{
+  "heroes": [
+    {
+      "name": "x<zc<azc<z",
+      "alterEgo": "cafasf",
+      "power": "asfdasdsa",
+      "enemy": "asdasda",
+      "planet": "asdasdas",
+      "weaknes": "asdasdsa",
+      "id": 1
+    },
+    {
+      "name": "asdasd",
+      "alterEgo": "asd",
+      "power": "asd",
+      "enemy": "asd",
+      "planet": "asd",
+      "weaknes": "asd",
+      "id": 2
+    },
+    {
+      "name": "Xanthus Mcmillan",
+      "alterEgo": "Baxter Hays",
+      "power": "Yen Estes",
+      "enemy": "Kyla Buckner",
+      "planet": "Lael Jacobson",
+      "weaknes": "Scarlet Reese",
+      "id": 3
+    },
+    {
+      "name": "asd",
+      "alterEgo": "",
+      "power": "",
+      "enemy": "",
+      "planet": "",
+      "weaknes": "",
+      "id": 4
+    },
+    {
+      "name": "Kiona Dillon",
+      "alterEgo": "Ut minus voluptates ",
+      "power": "In ut velit dolorum ",
+      "enemy": "Exercitation et moll",
+      "planet": "Temporibus eos dolor",
+      "id": 5
+    },
+    {
+      "name": "Aquila Sanders",
+      "alterEgo": "Voluptatem incididun",
+      "power": "Lorem est odio ex au",
+      "enemy": "Suscipit ipsa non e",
+      "planet": "Reiciendis ut consec",
+      "weaknes": "Accusamus qui est ea",
+      "id": 6
+    }
+  ]
+}
