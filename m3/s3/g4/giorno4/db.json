@@ -1,3 +1,11 @@
 {
-  "users":[]
+  "users": [
+    {
+      "email": "sotejo@mailinator.com",
+      "password": "$2a$10$4Msr2BfFgBxwpR31vrg.zutVB4/Ide36ydCY6m8f4bWsTGlgXSpae",
+      "nome": "Keaton Reese",
+      "cognome": "Explicabo Esse con",
+      "id": 1
+    }
+  ]
 }

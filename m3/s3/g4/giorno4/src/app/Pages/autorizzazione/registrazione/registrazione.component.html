@@ -1,1 +1,33 @@
-<p>registrazione works!</p>
+<form class="mt-5">
+  <input
+    type="email"
+    placeholder="email"
+    class="form-control mt-5"
+    name="email"
+    [(ngModel)]="data.email"
+  />
+  <input
+    type="password"
+    placeholder="password"
+    class="form-control mt-5"
+    name="password"
+    [(ngModel)]="data.password"
+  />
+  <input
+    type="text"
+    placeholder="cognome"
+    class="form-control mt-5"
+    name="cognome"
+    [(ngModel)]="data.cognome"
+  />
+  <input
+    type="text"
+    placeholder="name"
+    class="form-control mt-5"
+    name="name"
+    [(ngModel)]="data.nome"
+  />
+  <button class="btn btn-primary mt-5" (click)="registrazione(data)">
+    iscriviti
+  </button>
+</form>
