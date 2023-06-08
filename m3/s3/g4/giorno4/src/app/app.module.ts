@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './Componenti/navbar/navbar.component';
-import { RegistrazioneComponent } from './Pages/autorizzazione/registrazione/registrazione.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 

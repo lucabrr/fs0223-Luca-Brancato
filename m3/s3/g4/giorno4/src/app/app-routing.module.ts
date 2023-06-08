@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './Pages/home/home.component';
 
 const routes: Routes =
-[{ path: 'autorizzazione', loadChildren: () => import('./Pages/autorizzazione/autorizzazione.module').then(m => m.AutorizzazioneModule) },
-
+[
+  { path: 'autorizzazione', loadChildren: () => import('./Pages/autorizzazione/autorizzazione.module').then(m => m.AutorizzazioneModule) },
   {path: "", component:HomeComponent  }
 
 ];

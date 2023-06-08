@@ -1,1 +1,17 @@
-<p>login works!</p>
+<form>
+  <input
+    type="email"
+    name="email"
+    [(ngModel)]="userLoginData.email"
+    placeholder="email"
+    class="form-control"
+  />
+  <input
+    type="password"
+    name="password"
+    [(ngModel)]="userLoginData.password"
+    placeholder="password"
+    class="form-control"
+  />
+  <button type="button" class="btn btn-success">accedi</button>
+</form>
