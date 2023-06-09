@@ -1,0 +1,18 @@
+input.form-control{
+  width: 40%;
+}
+input.ng-invalid.ng-touched{
+  border: solid 1px red;
+  background-color: rgba(170, 16, 16, 0.348);
+}
+input:focus{
+  box-shadow: black!important
+}
+input.ng-valid.ng-touched{
+  border: solid 1px rgb(8, 81, 34);
+  background-color: rgba(70, 231, 37, 0.613);
+}
+span{
+  width: 50%;
+  margin: auto;
+}

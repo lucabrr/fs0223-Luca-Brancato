@@ -1,1 +1,44 @@
-<p>login works!</p>
+<h1 class="text-center">Login</h1>
+<div class="container d-flex flex-column alingn-center">
+  <form
+    class="row text-center alingn-center justify-content-center flex-column form-group"
+    #logForm="ngForm"
+  >
+    <input
+      type="email"
+      class="col-4 mx-auto my-1 form-control"
+      placeholder="email"
+      name="email"
+      ngModel
+      required
+      email
+      #email="ngModel"
+    />
+    <span *ngIf="email.invalid && email.touched" class="alert alert-danger col">
+      l'email inserita non è valida
+    </span>
+    <input
+      type="password"
+      class="col-4 mx-auto my-1 form-control"
+      placeholder="password"
+      name="password"
+      ngModel
+      required
+      minlength="6"
+      #password="ngModel"
+    />
+    <span
+      *ngIf="password.invalid && password.touched"
+      class="alert alert-danger col"
+    >
+      la password deve contenere almeno 6 caratteri.
+    </span>
+
+    <button
+      class="col-3 mx-auto mt-4 btn btn-success fw-bold"
+      [disabled]="!logForm.valid"
+    >
+      accedi
+    </button>
+  </form>
+</div>
