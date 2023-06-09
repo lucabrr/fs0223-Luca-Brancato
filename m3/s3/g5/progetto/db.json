@@ -1,3 +1,58 @@
 {
-  "users":[]
+  "users": [
+    {
+      "email": "fuwiwux@mailinator.com",
+      "password": "$2a$10$kyKBj/050uwIVv7REUODSu8kG/lcO1cv6uk8PqUB.x1B.C1GDtzsG",
+      "username": "cycuvopic",
+      "id": 1
+    },
+    {
+      "email": "gutijaxiwi@mailinator.com",
+      "password": "$2a$10$2OtbKE6RgWs6xWHcktiRKeWD4g5T9vILP9hf6BfLdlrvIz8Jmbx1G",
+      "username": "tozeqynid",
+      "id": 2
+    },
+    {
+      "email": "zijosecew@mailinator.com",
+      "password": "$2a$10$4M6m0IKg8.1Up8i11Vt6z.kkBrXNfesBVUqItzumTsAuMMkpF2oFm",
+      "username": "buqygy",
+      "id": 3
+    },
+    {
+      "email": "jimilebe@mailinator.com",
+      "password": "$2a$10$K8JFd.JWSa4S06UkZkBbbuvN9ZAwAweH5uhleE48aofFoc2xIOjDy",
+      "username": "novahujono",
+      "id": 4
+    },
+    {
+      "email": "farikyjy@mailinator.com",
+      "password": "$2a$10$nQ01H9qMMFCI84NoLlNLEeQm7e6CM7zCM.YqAaIiTDj9tSvMCJTCi",
+      "username": "luwimy",
+      "id": 5
+    },
+    {
+      "email": "miwesy@mailinator.com",
+      "password": "$2a$10$gLxKiGRk8BfhBaEmCnEIc.I0jJznKAOqoGfucBpupmxfJPfzF/hVa",
+      "username": "pinaku",
+      "id": 6
+    },
+    {
+      "email": "xado@mailinator.com",
+      "password": "$2a$10$flxDC1v1/WkbDJrTSV05OepGv5jY47dOfsU/cLZ8wRcnYn7Za6Zty",
+      "username": "dunifinyho",
+      "id": 7
+    },
+    {
+      "email": "budapef@mailinator.com",
+      "password": "$2a$10$h/mOn9O4eHArT9/Nu2iBvudiBi6yGDfepFqeTZ.BPwnYOgLfSjIc6",
+      "username": "zydirele",
+      "id": 8
+    },
+    {
+      "email": "xecigavese@mailinator.com",
+      "password": "$2a$10$5S0PQq4pCigBiKb4wE4jT.qNvExTbvYXbkM00GQ2YJw4LGT4LM4XC",
+      "username": "dowogowit",
+      "id": 9
+    }
+  ]
 }
