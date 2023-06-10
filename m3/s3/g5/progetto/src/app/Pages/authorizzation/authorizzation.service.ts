@@ -26,7 +26,7 @@ export class AuthorizzationService {
 
   constructor
   (private http:HttpClient,private router:Router) {
-    this.restoreUser() // ogni volta che viene utilizzato il server faccio il check dell'utente
+    this.restoreUser() // ogni volta che viene utilizzato il service faccio il check dell'utente
   }
 
   register(formData:IUserRegData){
