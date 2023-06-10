@@ -4,6 +4,7 @@ import { AuthorizzationRoutingModule } from './authorizzation-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     AuthorizzationRoutingModule,
     FormsModule,
+
 
   ]
 })

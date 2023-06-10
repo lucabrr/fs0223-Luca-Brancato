@@ -3,6 +3,7 @@
   <form
     class="row text-center alingn-center justify-content-center flex-column form-group"
     #logForm="ngForm"
+    (ngSubmit)="login(logForm)"
   >
     <input
       type="email"
@@ -31,7 +32,7 @@
       *ngIf="password.invalid && password.touched"
       class="alert alert-danger col"
     >
-      la password deve contenere almeno 6 caratteri.
+      questa password non è valida.
     </span>
 
     <button
@@ -42,3 +43,4 @@
     </button>
   </form>
 </div>
+<span>{{ isLogged }}</span>
