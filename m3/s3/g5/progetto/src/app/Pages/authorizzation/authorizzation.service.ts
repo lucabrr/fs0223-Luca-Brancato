@@ -49,7 +49,7 @@ export class AuthorizzationService {
   logout(){
     this.authSubject.next(null) // per il logout semplicemente passo il valore null al subject che lo trasmetterà  a user e isloggedin
     localStorage.removeItem("user")
-     this.router.navigate(['/login']) //mando l'utente al login
+     this.router.navigate(['/authorizzation', 'login']) //mando l'utente al login
     if(this.logoutTimer){
       clearTimeout(this.logoutTimer);
     }

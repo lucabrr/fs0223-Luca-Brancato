@@ -4,7 +4,8 @@ import { HomeComponent } from './Pages/home/home.component';
 
 const routes: Routes = [
   { path:"", component: HomeComponent}
-  ,{ path: 'authorizzation', loadChildren: () => import('./Pages/authorizzation/authorizzation.module').then(m => m.AuthorizzationModule) }
+  ,{ path: 'authorizzation', loadChildren: () => import('./Pages/authorizzation/authorizzation.module').then(m => m.AuthorizzationModule) },
+  { path: 'Admin', loadChildren: () => import('./Pages/admins-page/admins-page.module').then(m => m.AdminsPageModule) }
 ];
 
 @NgModule({

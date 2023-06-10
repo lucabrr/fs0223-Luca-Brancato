@@ -1,6 +1,7 @@
 import { Component,  } from '@angular/core';
 import { AuthorizzationService } from '../authorizzation.service';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +10,7 @@ import { NgForm } from '@angular/forms';
 })
 export class LoginComponent {
 
-  constructor(private authSvc:AuthorizzationService){}
+  constructor(private authSvc:AuthorizzationService, private router:Router ){}
   isLogged!:boolean
 
  ngOnInit():void{
@@ -18,7 +19,8 @@ export class LoginComponent {
  }
 
   login(loginForm:NgForm){
-    this.authSvc.login(loginForm.value).subscribe(res => console.log(res)
+    this.authSvc.login(loginForm.value).subscribe(res => {this.router.navigate(['/Admin'])}
+
     )
   }
 
