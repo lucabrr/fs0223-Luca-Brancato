@@ -24,6 +24,8 @@ export class AuthorizzationService {
 
   logoutTimer:any // mi serve per creare il logout autumatico alla scandenza del token
 
+
+
   constructor
   (private http:HttpClient,private router:Router) {
     this.restoreUser() // ogni volta che viene utilizzato il service faccio il check dell'utente
@@ -48,7 +50,7 @@ export class AuthorizzationService {
 
   logout(){
     this.authSubject.next(null) // per il logout semplicemente passo il valore null al subject che lo trasmetterà  a user e isloggedin
-    localStorage.removeItem("user")
+    localStorage.removeItem("userData")
      this.router.navigate(['/authorizzation', 'login']) //mando l'utente al login
     if(this.logoutTimer){
       clearTimeout(this.logoutTimer);

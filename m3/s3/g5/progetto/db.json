@@ -95,6 +95,12 @@
       "password": "$2a$10$1YtGvFQO7GyIkOafiQTdSO9rJVfqjvyElqZgK5wyvrS/HWIrCfHc2",
       "username": "zenut",
       "id": 16
+    },
+    {
+      "email": "luze@mailinator.com",
+      "password": "$2a$10$Zy.xR4vi8QfBziH1HL3M3.k3zNY2K/TiY4fivGZbvXSrBWFBDDIei",
+      "username": "luhuxy",
+      "id": 17
     }
   ]
 }

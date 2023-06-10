@@ -11,7 +11,9 @@ import { Router } from '@angular/router';
 export class LoginComponent {
 
   constructor(private authSvc:AuthorizzationService, private router:Router ){}
+
   isLogged!:boolean
+
 
  ngOnInit():void{
   this.authSvc.isLogged$.subscribe(dato => { this.isLogged = dato; console.log(this.isLogged);
