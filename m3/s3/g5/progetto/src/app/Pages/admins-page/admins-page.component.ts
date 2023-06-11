@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthorizzationService } from '../authorizzation/authorizzation.service';
 import { Ipost } from 'src/app/Interface/Ipost';
 import { findIndex } from 'rxjs';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-admins-page',
@@ -27,6 +28,10 @@ ngOnInit(): void {
 showForm(id:number){
   if(this.selectedPostId){this.selectedPostId = null; return}
   this.selectedPostId = id
+}
+editPost(form:NgForm,id:number){
+  this.AdminSvc.editPost(form,id).subscribe(res => console.log(res)
+  )
 }
 
 eliminatePost(id:number){

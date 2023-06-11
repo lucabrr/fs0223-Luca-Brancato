@@ -19,6 +19,9 @@ export class AdminService {
   deletePost(id:number){
     return this.http.delete(this.postUrl+"/"+id)
   }
+  editPost(form:NgForm,id:number){
+    return this.http.put(this.postUrl+"/"+id,form.value)
+  }
 
 
   getPost(){

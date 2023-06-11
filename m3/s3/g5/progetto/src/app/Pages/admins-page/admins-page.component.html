@@ -23,7 +23,10 @@
             </button>
           </div>
           <div *ngIf="selectedPostId === post.id">
-            <form #editPostForm="ngForm">
+            <form
+              #editPostForm="ngForm"
+              (ngSubmit)="editPost(editPostForm, post.id)"
+            >
               <input
                 type="text"
                 class="form-control"
