@@ -13,7 +13,7 @@
       <div class="card" style="width: 18rem">
         <img src="{{ post.imgUrl }}" class="card-img-top" alt="..." />
         <div class="card-body">
-          <p class="card-text">{{ post.title }}</p>
+          <p class="card-text fw-bold fs-3">{{ post.title }}</p>
           <div class="d-flex justify-content-between">
             <button class="btn btn-primary" (click)="showForm(post.id)">
               Modifica
@@ -31,7 +31,7 @@
                 type="text"
                 class="form-control"
                 required
-                ngModel
+                [(ngModel)]="post.imgUrl"
                 placeholder="URL dell'immagine"
                 name="imgUrl"
               />
@@ -39,12 +39,12 @@
                 type="text"
                 class="form-control"
                 required
-                ngModel
+                [(ngModel)]="post.title"
                 placeholder="Titolo"
                 name="title"
               />
               <button class="btn btn-primary" [disabled]="!editPostForm.valid">
-                modifica
+                Conferma
               </button>
             </form>
           </div>

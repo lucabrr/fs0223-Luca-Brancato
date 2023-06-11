@@ -20,7 +20,7 @@ export class AdminService {
     return this.http.delete(this.postUrl+"/"+id)
   }
   editPost(form:NgForm,id:number){
-    return this.http.put(this.postUrl+"/"+id,form.value)
+    return this.http.put<Ipost>(this.postUrl+"/"+id,form.value)
   }
 
 

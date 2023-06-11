@@ -30,7 +30,14 @@ showForm(id:number){
   this.selectedPostId = id
 }
 editPost(form:NgForm,id:number){
-  this.AdminSvc.editPost(form,id).subscribe(res => console.log(res)
+  this.AdminSvc.editPost(form,id).subscribe((res:Ipost) => {
+    const index = this.postArray.findIndex((post)=> post.id === id)
+    if (index > -1){
+      this.postArray[index] = res
+      this.showForm(id)
+    }
+
+  }
   )
 }
 
