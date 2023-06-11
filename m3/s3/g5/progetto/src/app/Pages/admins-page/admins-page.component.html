@@ -1,1 +1,52 @@
 <h1>benvenuto {{ username }}</h1>
+<p>qui potrai vedere i tuoi post</p>
+<p>
+  al momento hai <span class="fw-bold"> {{ postArray.length }}</span> post
+</p>
+<p>
+  vuoi creare un post? <a [routerLink]="['/Admin', 'create']">clicca qui</a>
+</p>
+
+<div class="container mt-5">
+  <div class="row mt-5">
+    <div class="col mt-5" *ngFor="let post of postArray">
+      <div class="card" style="width: 18rem">
+        <img src="{{ post.imgUrl }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">{{ post.title }}</p>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-primary" (click)="showForm(post.id)">
+              Modifica
+            </button>
+            <button class="btn btn-danger" (click)="eliminatePost(post.id)">
+              Cancella
+            </button>
+          </div>
+          <div *ngIf="selectedPostId === post.id">
+            <form #editPostForm="ngForm">
+              <input
+                type="text"
+                class="form-control"
+                required
+                ngModel
+                placeholder="URL dell'immagine"
+                name="imgUrl"
+              />
+              <input
+                type="text"
+                class="form-control"
+                required
+                ngModel
+                placeholder="Titolo"
+                name="title"
+              />
+              <button class="btn btn-primary" [disabled]="!editPostForm.valid">
+                modifica
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

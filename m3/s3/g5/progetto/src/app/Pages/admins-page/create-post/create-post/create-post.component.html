@@ -1,0 +1,19 @@
+<form #makePostForm="ngForm" (ngSubmit)="makePost(makePostForm)">
+  <input
+    type="text"
+    class="form-control"
+    required
+    ngModel
+    placeholder="URL dell'immagine"
+    name="imgUrl"
+  />
+  <input
+    type="text"
+    class="form-control"
+    required
+    ngModel
+    placeholder="Titolo"
+    name="title"
+  />
+  <button class="btn btn-primary" [disabled]="!makePostForm.valid">crea</button>
+</form>

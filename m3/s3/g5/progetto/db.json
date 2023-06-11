@@ -137,6 +137,47 @@
       "password": "$2a$10$fAWq60Tm1zUrzIuNXzZYeusxSHB5VQY/V.m3MDob3H3wrMwOkDxDW",
       "username": "pifuna",
       "id": 23
+    },
+    {
+      "email": "qyqiwag@mailinator.com",
+      "password": "$2a$10$ydk4eJuuUHATQ/W3kNPH1Oy3SlpPujoruk37LEbx7j211IjnLqrqy",
+      "username": "wevibacox",
+      "id": 24
+    },
+    {
+      "email": "cynobec@mailinator.com",
+      "password": "$2a$10$DizpCkfm8NbD6rhSnA4gleJiXYtb9RxLcSinkVIvRHIg8j8o.XLFu",
+      "username": "zowudic",
+      "id": 25
+    },
+    {
+      "email": "riwawasex@mailinator.com",
+      "password": "$2a$10$bUV5XEehV.PI8Cbk.drOPus.gr5CsP1yksVpZByvJALXaXGRXNMgi",
+      "username": "crazy",
+      "id": 26
+    },
+    {
+      "email": "wavyhu@mailinator.com",
+      "password": "$2a$10$NSnteW6H9jN5OYI3Ns3jIOjTVmslM4Xqed687efKPeYze4YSyRy0C",
+      "username": "cawenycas",
+      "id": 27
+    }
+  ],
+  "post": [
+    {
+      "imgUrl": "https://placedog.net/500",
+      "title": "tiedatasc",
+      "id": 6
+    },
+    {
+      "imgUrl": "https://placedog.net/500",
+      "title": "tiedatasc",
+      "id": 7
+    },
+    {
+      "imgUrl": "https://placedog.net/500",
+      "title": "ciao",
+      "id": 8
     }
   ]
 }
