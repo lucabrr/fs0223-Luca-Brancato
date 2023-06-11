@@ -1,0 +1,17 @@
+~ Let's make sure your Firebase CLI is ready...
++ Looks like your CLI is set up!
+
+undefined:1
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at ChildProcess.<anonymous> (C:\snapshot\firepit\welcome.js:136:14)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:527:28)
+    at Pipe.<anonymous> (node:net:709:12)
+
+>
+non sono riuscito a fare il deploy firebase mi da sto errore
