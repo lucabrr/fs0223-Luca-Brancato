@@ -22,5 +22,8 @@
         <a class="nav-link">contattaci</a>
       </div>
     </div>
+    <button *ngIf="isLogged" class="btn btn-danger" (click)="logout()">
+      LOGOUT
+    </button>
   </div>
 </nav>

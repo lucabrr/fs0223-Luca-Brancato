@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './Pages/home/home.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { Router, RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

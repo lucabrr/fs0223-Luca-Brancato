@@ -34,6 +34,9 @@
     >
       questa password non è valida.
     </span>
+    <span *ngIf="loginErr" class="alert alert-danger col">
+      Si è verificato un errore. Riprova più tardi o contattaci.
+    </span>
 
     <button
       class="col-3 mx-auto mt-4 btn btn-success fw-bold"

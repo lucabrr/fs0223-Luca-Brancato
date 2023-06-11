@@ -1,5 +1,5 @@
 export interface IUserRegData {
-  nickname:string,
+  username:string,
   email:string,
   password:string,
   id:number

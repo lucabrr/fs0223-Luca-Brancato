@@ -24,6 +24,8 @@ export class AuthorizzationService {
 
   logoutTimer:any // mi serve per creare il logout autumatico alla scandenza del token
 
+  loginError:boolean=false
+
 
 
   constructor
@@ -66,6 +68,8 @@ export class AuthorizzationService {
   }
 
   restoreUser(){
+
+
     const userJson = localStorage.getItem("userData") //al caricamento della pagina cerco sul ls userData
     if(!userJson){
       return //se non c'è non fa nulla
@@ -75,34 +79,27 @@ export class AuthorizzationService {
      return // se è true vuol dire che il token è scaduto se è false è valido e pusho user al subject
     }
     this.authSubject.next(user)
+    this.router.navigate(["/Admin"])
 
 
   }
 
+  errors = (err: any) => {
+    this.loginError = true;
 
 
 
-
-
-
-
-  errors(err: any) {
     switch (err.error) {
-        case "Email and Password are required":
-            return throwError('Email e password obbligatorie');
-            break;
-        case "Email already exists":
-            return throwError('Utente esistente');
-            break;
-        case 'Email format is invalid':
-            return throwError('Email scritta male');
-            break;
-        case 'Cannot find user':
-            return throwError('utente inesistente');
-            break;
-            default:
+      case "Email and Password are required":
+        return throwError('Email e password obbligatorie');
+      case "Email already exists":
+        return throwError('Utente esistente');
+      case 'Email format is invalid':
+        return throwError('Email scritta male');
+      case 'Cannot find user':
+        return throwError('Utente inesistente');
+      default:
         return throwError('Errore');
-            break;
     }
   }
 }
